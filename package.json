@@ -4,8 +4,8 @@
   "description": "RESTful todoListApi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "jest",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/generalgmt/RESTfulAPITutorial#readme",
   "devDependencies": {
-    "mocha": "^9.1.1",
+    "jest": "^27.2.0",
     "nodemon": "^2.0.12",
     "supertest": "^6.1.6"
   },
