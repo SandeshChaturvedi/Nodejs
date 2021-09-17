@@ -1,6 +1,6 @@
 {
   "name": "todolistapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "RESTful todoListApi",
   "main": "index.js",
   "scripts": {
